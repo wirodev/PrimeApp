@@ -17,7 +17,7 @@ namespace PrimeApp
 		private void btnSave_Click(object sender, EventArgs e)
 		{
 			userName = txtName.Text;
-			lblGreeting.Text = $"Hej, {userName}!";
+			lblGreeting.Text = $"Hello, {userName}!";
 		}
 
 		private void btnGenerateList_Click(object sender, EventArgs e)
